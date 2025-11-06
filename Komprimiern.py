@@ -3,13 +3,13 @@ import os
 import Augmentor
 
 
-quali_10 = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\10quali_train"
-quali_50 = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\50quali_train"
-resize_quali_10 = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\resize_10quali_train"
-manipulate = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\manipulierte Daten"
-traindaten = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\train1(2)"
-testdaten = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\test1(1)"
-testmanipulate = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\test_manipulate"
+quali_10 = "10quali_train"
+quali_50 = "50quali_train"
+resize_quali_10 = "resize_10quali_train"
+manipulate = "manipulierte Daten"
+traindaten = "train1"
+testdaten = "test1"
+testmanipulate = "test_manipulate"
 
 def komprimiern_kopie(input_folder, output_folder, compression_quality):
 
@@ -113,3 +113,4 @@ def umbenennung(ordner):
 
 
 umbenennung("C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\kompromierte Daten\\neuetrain")
+

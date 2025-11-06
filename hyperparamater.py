@@ -8,8 +8,8 @@ from PIL import Image
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 
 # Define the folders containing the images
-train_folder = "C:\\Users\\Zayd Maatouf\\Documents\\2er Semster\\KI PROTOTYPE\\daten\\train2"
-test_folder = "C:\\Users\\Zayd Maatouf\\Documents\\2er Semster\\KI PROTOTYPE\\daten\\test2"
+train_folder = "train2"
+test_folder = "test2"
 
 # Function to load and prepare the image data
 def load_images(folder, image_size=(640, 480)):
@@ -119,5 +119,6 @@ else:
     print(f"F1-Score: {test_f1}")
     print(f"Recall: {test_recall}")
     print(f"Precision: {test_precision}")
+
 
 

@@ -7,8 +7,8 @@ from PIL import Image
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 
 # Ordner, in dem die Bilddaten gespeichert sind
-train_folder = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\Maschien_Learning\\Prototyping\\Daten\\train1(2)"
-test_folder = "C:\\Users\\Miral Ibrahim\\OneDrive\\Desktop\\Uni\\Maschien_Learning\\Prototyping\\Daten\\test1(1)"
+train_folder = "train1"
+test_folder = "test1"
 
 
 # Funktion zum Laden und Vorbereiten der Bilddaten
@@ -82,3 +82,4 @@ else:
     print(f"F1-Score: {best_f1_score}")
     print(f"Recall: {best_recall}")
     print(f"Precision: {best_precision}")
+

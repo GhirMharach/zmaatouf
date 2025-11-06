@@ -11,8 +11,8 @@ from skimage.feature import hog
 from skimage import color
 
 # Define the folders containing the images
-train_folder = "C:\\Users\\ZAYD\\Documents\\1er Semestre KI\\Ki prototype\\neue3"
-test_folder = "C:\\Users\\ZAYD\\Documents\\1er Semestre KI\\Ki prototype\\test3"
+train_folder = "neue3"
+test_folder = "test3"
 
 # Function to load and prepare the image data
 def load_images(folder, image_size=(640, 480)):
@@ -152,3 +152,4 @@ if os.path.exists(train_folder) and os.path.exists(test_folder):
         print(f'True Negatives: {TN}')
         print(f'False Positives: {FP}')
         print(f'False Negatives: {FN}')
+

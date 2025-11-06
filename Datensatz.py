@@ -6,8 +6,8 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.svm import SVC
 
 # Ordner, in dem die Bilddaten gespeichert sind
-train_folder = 'C:\\Users\\ZAYD\\Documents\\1er Semestre KI\\Ki prototype\\train1\\manipulierte Daten'
-test_folder = 'c:\\Users\\ZAYD\\Documents\\test1\\test1'
+train_folder = 'tain'
+test_folder = 'test'
 
 # Bildgröße
 image_size = (640, 480)
@@ -63,4 +63,5 @@ else:
             best_model = model
     
     # Das beste Modell auswählen
+
     print(f"\nDas beste Modell ist {type(best_model).__name__} mit einer Genauigkeit von {best_accuracy}")
